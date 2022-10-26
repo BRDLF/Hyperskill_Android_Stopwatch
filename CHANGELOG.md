@@ -1,5 +1,10 @@
 # Hyperskill_Android_Stopwatch
 
+### Stage 3/5: Progress bar
+
+Progress bar now shows when timer is running.
+Progress bar changes color every second.
+
 ### Stage 2/5: Add functionality
 
 Buttons now work. 
