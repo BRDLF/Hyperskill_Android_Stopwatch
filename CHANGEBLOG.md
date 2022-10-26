@@ -1,5 +1,22 @@
 # Hyperskill_Android_Stopwatch
 
+### Stage 3/5: Progress bar
+
+I absolutely despised this. What a terrible pain in the butt. Adding a progress bar? Easy. Simple. Super straightforward. \
+Somehow, though. Making it change color every second was traversing a labyrinth. The default minSDK for this project is 20, which doesn't support `setIndeterminateTintList()`
+So, I went about trying to change color some other way, of which there are many, it seems! And the method of which to do so has changed over the years, mostly between sdk 20 and 23
+So while searching for answer for "the best way to change a color programatically." I ran into answers that either didn't work or were considered deprecated by the compiler or not supported by sdk21 \
+When I finally found something that was neither deprecated nor unsupported, the built-in edutools check failed. Why?
+
+Because it was checking for the `progressBar.indeterminateTintList?.defaultColor` property. So I had to use setIndeterminateTintList after all, and just change the gradle.build.
+Really frustrating to have to run around like that.
+
+I understand at the end of the day that "this is android development, get used to it pal." But gosh golly does that just put me in a way. \ 
+GRUMPY FACE
+
+Anywho, it's done now. I'm feeling relieved. Onto other things. \
+Ciao
+
 ### Stage 2/5: Add functionality
 
 Woo! Okay, buttons work and do stuff. I'm still only vaguely familiar with threads, but this was a nice way to dip my toes in. \
