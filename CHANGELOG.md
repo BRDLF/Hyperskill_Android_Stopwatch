@@ -1,5 +1,9 @@
 # Hyperskill_Android_Stopwatch
 
+### Stage 4/5: Custom time limit
+
+User can now set a time limit.
+
 ### Stage 3/5: Progress bar
 
 Progress bar now shows when timer is running.

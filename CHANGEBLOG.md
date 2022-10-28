@@ -1,5 +1,9 @@
 # Hyperskill_Android_Stopwatch
 
+### Stage 4/5: Custom time limit
+
+This was fun, this was fine. I don't remember if I had much trouble with it.
+
 ### Stage 3/5: Progress bar
 
 I absolutely despised this. What a terrible pain in the butt. Adding a progress bar? Easy. Simple. Super straightforward. \
