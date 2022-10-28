@@ -4,7 +4,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
@@ -37,6 +36,16 @@
         app:layout_constraintStart_toEndOf="@id/startButton"
         app:layout_constraintTop_toTopOf="@id/startButton"/>
 
+    <Button
+        android:id="@+id/settingsButton"
+        android:text="@string/settingsText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/startButton"
+        app:layout_constraintEnd_toEndOf="@id/resetButton"
+        app:layout_constraintTop_toBottomOf="@id/startButton"
+        android:enabled="true"
+        />
     <ProgressBar
         android:id="@+id/progressBar"
         android:layout_width="wrap_content"
@@ -45,9 +54,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:indeterminateTintMode="src_in"
         android:indeterminateDuration="1000"
         android:visibility="gone"
         />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
