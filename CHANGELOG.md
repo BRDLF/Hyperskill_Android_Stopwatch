@@ -1,5 +1,9 @@
 # Hyperskill_Android_Stopwatch
 
+### Stage 5/5: Friendly reminder
+
+When time limit is reached, a notification is fired until the time is reset.
+
 ### Stage 4/5: Custom time limit
 
 User can now set a time limit.

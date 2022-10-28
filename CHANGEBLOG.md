@@ -1,5 +1,15 @@
 # Hyperskill_Android_Stopwatch
 
+### Stage 5/5: Friendly reminder
+
+The reminder I was instructed to make is anything but friendly. The insistence flag is SO annoying. I would not wish it upon my worst enemies.
+Honestly I thought at first that i'd done something horribly wrong (and maybe I have). But after removing/adding the flag, I think most of the frustration comes from that one flag. \
+
+All in all, I'm still trying to come to grasp just how everything is supposed to come together. This was a nice little trial in that, but I'd like to make something else, something more with my own vision in mind so that I can properly understand things. \
+Oh, and I know that a lot of the code is still sloppy/text is placeholder. Just trying to get something working not something pretty. At least right now.
+
+Ok. Bye!
+
 ### Stage 4/5: Custom time limit
 
 This was fun, this was fine. I don't remember if I had much trouble with it.
@@ -9,7 +19,7 @@ This was fun, this was fine. I don't remember if I had much trouble with it.
 I absolutely despised this. What a terrible pain in the butt. Adding a progress bar? Easy. Simple. Super straightforward. \
 Somehow, though. Making it change color every second was traversing a labyrinth. The default minSDK for this project is 20, which doesn't support `setIndeterminateTintList()`
 So, I went about trying to change color some other way, of which there are many, it seems! And the method of which to do so has changed over the years, mostly between sdk 20 and 23
-So while searching for answer for "the best way to change a color programatically." I ran into answers that either didn't work or were considered deprecated by the compiler or not supported by sdk21 \
+So while searching for answer for "the best way to change a color programmatically." I ran into answers that either didn't work or were considered deprecated by the compiler or not supported by sdk21 \
 When I finally found something that was neither deprecated nor unsupported, the built-in edutools check failed. Why?
 
 Because it was checking for the `progressBar.indeterminateTintList?.defaultColor` property. So I had to use setIndeterminateTintList after all, and just change the gradle.build.
